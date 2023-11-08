@@ -4,30 +4,78 @@
     
     <title>Code4ML.com</title>
     <link rel="stylesheet" href="style.css" />
+   
 
     
   </head>
 
   <body>
-    <div id="nav">
-      <img src="logo1-removebg-preview.png"/>
-      <h4>ALOGORITHMS </h4>
-      <h4><a href= " https://jrtclltaphaz6jjbhbzrgk.streamlit.app/"target="_blank">Experiments</a> </h4>
-      <h4>Learn_To_Code</h4>
-      <h4>Projects</h4>
-      <h4>Discussion</h4>
+  <div id="nav">
+    <img src="logo1-removebg-preview.png"/>
+     
+    <div class="dropdown">
+      <button class="dropbtn">Learn_To_Code</button>
+      <div class="dropdown-content">
+        <a href="https://colab.research.google.com/">Practice </a>
+        <a href="https://colab.research.google.com/drive/1gg2NgVWPKVLVWXa-B9QWuoWRGP07p1aZ?usp=sharing">Learn  </a>
+      </div>
     </div>
+ 
+    <div class="dropdown">
+      <button class="dropbtn">ALGORITHMS</button>
+      <div class="dropdown-content">
+        <a href="#">KNN</a>
+         <a href="Logistic_regression.html">Logistic Regression</a>
+      </div>
+    </div>
+    
+    
+    
+   
+    <div class="dropdown">
+      <button class="dropbtn">Discussion</button>
+      <div class="dropdown-content">
+        <a href="https://colab.research.google.com/drive/1dY0Wr6qmTX-gWoDbbqLstnzLCy-8AOFK?usp=sharing">KNN </a>
+        <a href="https://colab.research.google.com/drive/1gg2NgVWPKVLVWXa-B9QWuoWRGP07p1aZ?usp=sharing">Logistic Regression  </a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Projects</button>
+      <div class="dropdown-content">
+        <a href="ImgCl.html">Image classification</a>
+        <a href="#">Heart disease</a>
+        <a href="#">Parkinson's disease</a>
+      </div>
+      
+    </div>
+    <h4>About US </h4>
+    <div id="login">
+      <h2>Login</h2>
+      <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" value="Login">
+      </form>
+    </div>
+    
+  </div>
+  
+  
+    
+    
     <div id="cursor"></div>
     <div id="cursor-blur"></div>
 
-    <video autoplay loop muted src="tech.mp4"> </video>
+     <video autoplay loop muted src="tech.mp4"> </video>
     <div id="main">
       <div id="page1">
         <h1>MACHINE LEARNING</h1>
         <h2>UNLOCKING IOT'S FULL POTENTIAL WITH MACHINE LEARNING</h2>
         <p> Discover how IoT and ML are revolutionizing EDUCATION ,  healthcare,<br> manufacturing, agriculture, 
           and more leading us toward a more connected, sustainable future</p>
-
+            
       </div>
       <div id="page2">
         <div id="scroller">
@@ -101,7 +149,53 @@
           />
         </div>
       </div>
+      <div id="page3">
+        <p>
+          
+          Our mission is to create an accessible educational platform that removes these compatibility obstacles, enabling a smoother learning journey and faster skill development
+        </p>
+        <img
+          id="colon1"
+          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-left.svg"
+          alt=""
+        />
+        <img
+          id="colon2"
+          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-right.svg"
+          alt=""
+        />
+      </div>
+      <div id="footer">
+        <div id="f1">
+          <img src="logo1-removebg-preview.png" alt="" />
+        </div>
+        <div id="f2">
+          <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+          <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+        </div>
+        <div id="f3">
+          <h3></h3>
+          <h3></h3>
+          <a href="#">Contact us</a>
+        </div>
+        <div id="f4">
+          <h4>
+            Walchand Institute of Technology <br />
+            Solapur <br />
+            Seth Walchand Hirachand Marg Ashok Chowk <br />
+            SOLAPUR <br />
+            TEL: 2651388, 2652700 <br />
+            GET DIRECTIONS <br />
+          </h4>
+        </div>
+      </div>
+      
     </div>
+ 
+
+
+    
     <script
     src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"
     integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g=="
